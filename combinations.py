@@ -15,12 +15,17 @@ def permutations(items, n=-1):
     yield [items[i]] + remainder
 
 def permutationsI(items):
+ return
  
+def combinationsI(items, n):
+ return
 
 print("Combinations:")
-for c in combinations([1,2,3,4], 2):
+for c in combinations([1, 2, 3, 4], 2):
  print(c)
 
 print("Permutations:")
-for p in permutations([1, 2, 3, 4], 2):
+for p in permutations(['d', 'd', 'r', 'r'], 4):
  print(p)
+ 
+ ### https://docs.python.org/3/library/itertools.html#itertools.combinations
